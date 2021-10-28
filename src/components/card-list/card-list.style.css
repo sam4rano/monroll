@@ -10,15 +10,15 @@
 }
 @media screen and (max-width:480px) {
     .card-list {
-        display: grid;
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+        /* display: grid;
         grid-template-columns: auto;
         grid-template-rows: 1fr;
         grid-gap:10px;
-    }
-    .imga {
-      width: 100%;
-      height: auto;
-    }
+    } */}
 
     
 }

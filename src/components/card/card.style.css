@@ -25,10 +25,16 @@
 }
 @media screen and (max-width:480px) {
     .card-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr auto;
-        grid-template-rows: 1fr 1fr auto;
-    }
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 250px;
 
+        /* display: grid;
+        grid-template-columns: 1fr 1fr auto;
+        grid-template-rows: 1fr 1fr auto; */
+    }
     
 }
